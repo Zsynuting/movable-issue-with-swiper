@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+#swiper {
+  height: 400px;
+  width: 600px;
+  background-color: #909090;
+}
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  position: relative;
+}
+.slide-content {
+  position: absolute;
+
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+.btn {
+  display: inline-block;
+  margin: 20px;
+  height: 40px;
+  width: 180px;
+  line-height: 40px;
+  border: 1px solid;
+  text-align: center;
+  border-radius: 6px;
+}
