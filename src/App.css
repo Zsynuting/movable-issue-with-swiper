@@ -50,7 +50,7 @@
 }
 .slide-content {
   position: absolute;
-
+  background-color: grey;
   width: 100px;
   height: 100px;
   text-align: center;
